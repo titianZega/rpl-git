@@ -1,10 +1,20 @@
 public class Calculator{
 
-  public float plus(float a,float b)
-  public float minus(float a,float b)
-  public float mulitply(float a,float b)
-  public float divide(float a,float b)
+  public float plus(float a,float b){
   
-  public Calculator(){}
+  }
+  public float minus(float a,float b){
+  
+  }
+  public float mulitply(float a,float b){
+  
+  }
+  public float divide(float a,float b){
+  
+  }
+  
+  public Calculator(){
+  
+  }
 
 }
