@@ -1,10 +1,10 @@
 public class Calculator{
 
   public float plus(float a,float b){
-  
+    return a+b;
   }
   public float minus(float a,float b){
-  
+    return a-b;
   }
   public float mulitply(float a,float b){
     return a * b;
@@ -12,6 +12,7 @@ public class Calculator{
   public float divide(float a,float b){
     return a / b;
   }
+
   public float min(float a,float b)
   {
     if(a>b)
@@ -22,6 +23,13 @@ public class Calculator{
     {
       return a;
     }
+  }
+  
+  public float max(float a,float b){
+    if(a>b) return a;
+    else if(a<b) reutrn b;
+    else return a;
+
   }
   public Calculator(){
   
